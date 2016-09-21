@@ -115,7 +115,7 @@ local keyboard = {}
 {
 {text = "Channel" , url = 'https://telegram.me/UmbrellaCopy'},
 {text = "Source" , url = 'https://github.com/UmbrellaCopy/aslrobot'},
-{text = "RoBoT" , url = 'https://telegram.me/uc_aslrobot'}
+{text = "RoBoT" , url = 'https://telegram.me/ASL_bede_Bot'}
 }
 }
 api.sendMessage(msg.chat.id, pms, true,msg.message_id, true,keyboard)
@@ -437,7 +437,7 @@ keyboard.inline_keyboard={inkb}
 if channel or insta or site then
 result.reply_markup = keyboard
 end
- result.message_text = URL.escape(text..'\n⛱ @uc_ASLrobot')
+ result.message_text = URL.escape(text..'\n⛱ @ASL_bede_bot')
  qresult[#qresult + 1] = result
 api.sendInline(inline.id, qresult,0)
 else
@@ -449,7 +449,7 @@ result.id = tostring(#qresult + 1)
  result.title = URL.escape('اطلاعات موجود نیست')
 result.message_text = URL.escape('شما هنوز اطلاعات خود را ثبت نکردید، به ربات مراجعه کنید و اقدام به ثبت اطلاعات خود نمایید')
 keyboard = {}
-keyboard.inline_keyboard = {{{text=URL.escape('ثبت مشخصات در ربات'),url=URL.escape('https://telegram.me/uc_aslrobot')}}}
+keyboard.inline_keyboard = {{{text=URL.escape('ثبت مشخصات در ربات'),url=URL.escape('https://telegram.me/ASL_bede_bot')}}}
 result.reply_markup = keyboard
  qresult[#qresult + 1] = result
 api.sendInline(inline.id, qresult,0)
