@@ -1,6 +1,6 @@
 #!/bin/bash
    echo -e "\033[38;5;208m"
-   echo -e "     @uc_Aslrobot   "
+   echo -e "     @ASL_Bede_Bot   "
    echo -e "         \033[0;00m"
    echo -e "\e[36m"
 sudo service redis-server start
