@@ -1,4 +1,3 @@
--- @uc_aslrobot By @jan_123 thanks to butler team
 HTTP = require('socket.http')
 HTTPS = require('ssl.https')
 ssl = require 'ssl'
